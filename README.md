@@ -1,5 +1,7 @@
 # Modern Battery Pill (KDE Plasma 6 Widget)
 
+[English](README_en.md) | **Tiếng Việt**
+
 Widget hiển thị pin dạng viên thuốc hiện đại cho KDE Plasma 6 với thông số công suất (W), sức khỏe pin, chu kỳ sạc và chuyển đổi nhanh Power Profile.
 
 ## Ảnh chụp màn hình / Screenshots
