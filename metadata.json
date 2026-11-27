@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "duynguyenvp"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Modern customizable battery pill widget with wattage, health, cycle count, and power profiles",
+        "Icon": "battery-full-charging",
+        "Id": "com.duy.batterypill",
+        "License": "GPL-3.0-or-later",
+        "Name": "Modern Battery Pill",
+        "Version": "1.0.0",
+        "Website": "https://github.com/duynguyenvp/kde-modern-battery-pill"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="language" type="String">
+            <default>auto</default>
+        </entry>
+        <entry name="percentagePosition" type="String">
+            <default>inside</default>
+        </entry>
+        <entry name="showChargingIcon" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showPercentSign" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showBatteryNub" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <!-- Typography -->
+        <entry name="fontFamily" type="String">
+            <default></default>
+        </entry>
+        <entry name="fontSize" type="Int">
+            <default>11</default>
+        </entry>
+        <entry name="fontWeight" type="Int">
+            <default>700</default>
+        </entry>
+        <entry name="fontItalic" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="textOutline" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <!-- Charging & AC icons -->
+        <entry name="chargingIconSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="chargingIcon" type="String">
+            <default>⚡</default>
+        </entry>
+        <entry name="pluggedIcon" type="String">
+            <default>icons/plug-horizontal.svg</default>
+        </entry>
+        <entry name="tintCustomIcon" type="Bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Pill dimensions & border -->
+        <entry name="autoPillWidth" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="pillWidth" type="Int">
+            <default>56</default>
+        </entry>
+        <entry name="pillPaddingX" type="Int">
+            <default>8</default>
+        </entry>
+        <entry name="pillHeight" type="Int">
+            <default>22</default>
+        </entry>
+        <entry name="pillRadius" type="Int">
+            <default>11</default>
+        </entry>
+        <entry name="borderWidth" type="Int">
+            <default>1</default>
+        </entry>
+        <entry name="useCustomBorderColor" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="borderColor" type="String">
+            <default>#99ffffff</default>
+        </entry>
+
+        <!-- Colors -->
+        <entry name="normalColor" type="String">
+            <default>#38bdf8</default>
+        </entry>
+        <entry name="chargingColor" type="String">
+            <default>#22c55e</default>
+        </entry>
+        <entry name="lowColor" type="String">
+            <default>#ef4444</default>
+        </entry>
+        <entry name="useCustomBackgroundColor" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="backgroundColor" type="String">
+            <default>#33ffffff</default>
+        </entry>
+        <entry name="useCustomTextColor" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="textColor" type="String">
+            <default>#ffffff</default>
+        </entry>
+
+        <!-- Threshold & Refresh -->
+        <entry name="lowBatteryThreshold" type="Int">
+            <default>20</default>
+        </entry>
+        <entry name="updateIntervalSec" type="Int">
+            <default>3</default>
+        </entry>
+    </group>
+</kcfg>
